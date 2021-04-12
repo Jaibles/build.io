@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      The Academy
+    </title>
+    <meta charset="UTF-8"/>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <link rel="stylesheet" href="/style.css?v=1618260777060"/>
+    
+    <script src="/js/alpine.js?v=1618260777060"></script>
+  </head>
+  <body>
+    <div x-data="{open:false}" class="relative">
+      <div class="relative bg-everglade-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+              <a href="#home">
+                <span class="text-lg text-gossip-500 font-bold tracking-wide">The Academy</span>
+              </a>
+            </div>
+            <div class="-mr-2 -my-2 md:hidden">
+              <button @click="open = true" type="button" class="rounded p-2 inline-flex items-center justify-center text-white hover:text-amarillo-500 hover:bg-everglade-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-everglade-500">
+                <span class="sr-only">Open menu</span>
+                <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+              <a href="#our-school" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">
+                Our School
+              </a>
+
+              <a href="#academics" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">
+                Academics
+              </a>
+              <a href="#student-life" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">
+                Student Life
+              </a>
+              <a href="#admissions" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">
+                Admissions
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div x-show="open" class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right">
+          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+            <div class="pt-3 pb-6 px-4">
+              <div class="flex items-center justify-between">
+                <div>
+                  <a href="#home">
+                    <span class="text-lg text-everglade-500 font-bold tracking-wide">The Academy</span>
+                  </a>
+                </div>
+                <div class="-mr-2">
+                  <button @click="open = false" type="button" class="bg-white rounded p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-everglade-500">
+                    <span class="sr-only">Close menu</span>
+                    <!-- Heroicon name: x -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-6">
+                <nav class="grid gap-y-8">
+                  <a href="#our-school" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50">
+
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Our School
+                    </span>
+                  </a>
+
+                  <a href="#academics" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50">
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Academics
+                    </span>
+                  </a>
+
+                  <a href="#student-life" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50">
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Student Life
+                    </span>
+                  </a>
+
+                  <a href="#admissions" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50">
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Admissions
+                    </span>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <main class="bg-everglade-500 pb-48 pt-28" id="home">
+    <div class="mx-auto max-w-7xl">
+      <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+        <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
+          <div>
+            <h1 class="mt-2 sm:mt-12 font-display tracking-tight text-white text-5xl md:text-6xl lg:text-6xl xl:text-6xl tracking-wide">
+              Begin the journey of your lifetime.
+            </h1>
+            <div class="mt-10">
+              <p class="text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                The Academy has been preparing students for life since 1987. Our graduates are well-prepared to meet the challenges of the future.
+              </p>
+            </div>
+            <a href="#our-school" class="mt-12 inline-flex items-center px-6 py-3 border border-transparent text-lg rounded shadow-sm text-everglade-500 bg-amarillo-500 hover:bg-amarillo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-everglade-500">
+              Learn more...
+            </a>
+          </div>
+        </div>
+        <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
+          <div class="sm:max-w-md sm:w-full sm:mx-auto relative">
+            <img class=" object-cover hero-image-left two-x" src="src/images/hero-image-2.jpg" alt="">
+            <img class=" object-cover absolute hero-image-right two-x" src="src/images/the-academy-hybrid-remote-learning-2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Our School -->
+  <div class="bg-white pb-12 pt-40" id="our-school">
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:text-center">
+        <h2 class="text-sm sm:text-base text-everglade-600 font-semibold tracking-wide uppercase">
+          Our School
+        </h2>
+        <p class="mt-6 font-display text-gray-900 text-4xl sm:text-5xl">
+          College preparatory education for the children of international families
+        </p>
+        <p class="mt-8 max-w-2xl text-lg text-black lg:mx-auto">
+          No matter what you study at The Academy, you’ll explore more than just the how of the subject, you’ll dig deep into the why. You’ll also grow invaluable skills as a writer. Whether it’s composing a critique of Chaucer or arguing the pros and cons of nuclear energy, you’ll learn how to put content in context and ground your writing in data.
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="this">
+        <div class="line"></div>
+      </div>
+      <div class="bg-gray-50 mt-24">
+        <div class="text-center pt-20">
+          <h2 class="text-xs text-everglade-600 font-semibold tracking-wide uppercase">
+            Our Values
+          </h2>
+          <p class="heading-2 mt-6 font-display text-3xl leading-8 text-gray-900 sm:text-4xl">
+            A tradition of excellence
+          </p>
+        </div>
+
+        <div class="py-12">
+          <div class="max-w-xl mx-auto px-4 sm:px-8 lg:max-w-7xl lg:px-10">
+
+            <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+              <div class="bg-everglade-900 py-12 px-10 text-center items-center justify flex-col flex">
+                <div class="flex items-center justify-center h-20 w-20 rounded-md text-white">
+                  <svg width="88" height="80" viewBox="0 0 88 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43.998 0V80" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M58.9125 1.68408C58.9125 1.68408 56.1299 19.3429 56.1299 40.0003C56.1299 60.6578 58.9125 78.3166 58.9125 78.3166" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M29.0865 1.68408C29.0865 1.68408 31.8691 19.5733 31.8691 40.5003C31.8691 61.4273 29.0865 79.3166 29.0865 79.3166" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M36.0875 0.684082C36.0875 0.684082 37.8701 18.8037 37.8701 40.0003C37.8701 61.1969 36.0875 79.3166 36.0875 79.3166" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M51.8715 0.684082C51.8715 0.684082 50.0889 18.8037 50.0889 40.0003C50.0889 61.1969 51.8715 79.3166 51.8715 79.3166" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M76.9995 5.36841C76.9995 5.36841 70.043 17.0147 70.043 40.0009C70.043 62.987 76.9995 74.6334 76.9995 74.6334" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M87.0005 9.36841C87.0005 9.36841 78.0439 19.6696 78.0439 40.0009C78.0439 60.3322 87.0005 70.6334 87.0005 70.6334" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M67.9575 3.36841C67.9575 3.36841 63.001 15.6873 63.001 40.0009C63.001 64.3145 67.9575 76.6334 67.9575 76.6334" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M11.0005 5.36841C11.0005 5.36841 17.957 17.0147 17.957 40.0009C17.957 62.987 11.0005 74.6334 11.0005 74.6334" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M1.00439 9.36841C1.00439 9.36841 9.96094 19.6696 9.96094 40.0009C9.96094 60.3322 1.00439 70.6334 1.00439 70.6334" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M20.0005 3.36841C20.0005 3.36841 24.957 15.6873 24.957 40.0009C24.957 64.3145 20.0005 76.6334 20.0005 76.6334" stroke="white" stroke-width="2"/>
+                    <circle cx="44" cy="41" r="6" fill="#F0C171"/>
+                  </svg>
+                </div>
+
+                <div class="mt-5">
+                  <dt class="text-xl leading-6 font-bold text-white">
+                    Character
+                  </dt>
+                  <dd class="mt-2 text-base text-white">
+                    We act responsibly and with integrity. We are honest and respectful.
+                  </dd>
+                </div>
+              </div>
+
+              <div class="bg-everglade-900 py-12 px-10 text-center items-center justify flex-col flex">
+                <div class="flex items-center justify-center h-20 w-20 rounded-md text-white">
+                  <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.4784 17.8274C14.2358 15.8861 15.8861 14.2358 17.8274 14.4784L45.6279 17.9535C45.875 17.9844 46.125 17.9844 46.3721 17.9535L74.1726 14.4784C76.1139 14.2358 77.7642 15.8861 77.5216 17.8274L74.0465 45.6279C74.0156 45.875 74.0156 46.125 74.0465 46.3721L77.5216 74.1726C77.7642 76.1139 76.1139 77.7642 74.1726 77.5216L46.3721 74.0465C46.125 74.0156 45.875 74.0156 45.6279 74.0465L17.8274 77.5216C15.8861 77.7642 14.2358 76.1139 14.4784 74.1726L17.9535 46.3721C17.9844 46.125 17.9844 45.875 17.9535 45.6279L14.4784 17.8274Z" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M65.0558 8.26069C66.8681 7.52388 68.8893 8.69087 69.1574 10.6288L72.996 38.3814C73.0302 38.6281 73.0949 38.8696 73.1886 39.1003L83.7406 65.0541C84.4774 66.8664 83.3104 68.8877 81.3726 69.1557L53.6199 72.9944C53.3732 73.0285 53.1317 73.0932 52.901 73.187L26.9472 83.7389C25.1349 84.4758 23.1136 83.3088 22.8456 81.3709L19.0069 53.6182C18.9728 53.3715 18.9081 53.1301 18.8143 52.8994L8.26237 26.9455C7.52556 25.1332 8.69254 23.112 10.6304 22.8439L38.3831 19.0053C38.6298 18.9712 38.8713 18.9065 39.1019 18.8127L65.0558 8.26069Z" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M74.1746 14.4783C76.1158 14.2356 77.7662 15.886 77.5235 17.8272L74.0485 45.6278C74.0176 45.8749 74.0176 46.1249 74.0485 46.372L77.5235 74.1725C77.7662 76.1137 76.1158 77.7641 74.1746 77.5215L46.3741 74.0464C46.1269 74.0155 45.877 74.0155 45.6298 74.0464L17.8293 77.5215C15.8881 77.7641 14.2377 76.1137 14.4804 74.1725L17.9554 46.372C17.9863 46.1249 17.9863 45.8749 17.9554 45.6278L14.4804 17.8272C14.2377 15.886 15.8881 14.2356 17.8293 14.4783L45.6299 17.9534C45.877 17.9843 46.1269 17.9843 46.3741 17.9534L74.1746 14.4783Z" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M54.6385 4.61511C56.1983 3.43435 58.4528 4.03843 59.2132 5.84091L70.104 31.6544C70.2008 31.8839 70.3258 32.1004 70.4761 32.2989L87.3859 54.6374C88.5666 56.1972 87.9625 58.4516 86.1601 59.2121L60.3466 70.1029C60.1171 70.1997 59.9006 70.3247 59.7021 70.475L37.3636 87.3847C35.8038 88.5655 33.5494 87.9614 32.7889 86.1589L21.8981 60.3454C21.8013 60.116 21.6763 59.8995 21.526 59.7009L4.61624 37.3625C3.43549 35.8027 4.03956 33.5482 5.84204 32.7878L31.6555 21.897C31.885 21.8002 32.1015 21.6752 32.3 21.5249L54.6385 4.61511Z" stroke="white" stroke-width="2"/>
+                    <path opacity="0.2" d="M43.6329 3.78976C44.834 2.24552 47.168 2.24552 48.369 3.78976L65.5697 25.905C65.7226 26.1015 65.8994 26.2783 66.096 26.4312L88.2112 43.6319C89.7554 44.833 89.7554 47.1669 88.2112 48.368L66.096 65.5687C65.8994 65.7216 65.7226 65.8984 65.5697 66.0949L48.369 88.2101C47.168 89.7544 44.834 89.7544 43.6329 88.2101L26.4322 66.0949C26.2793 65.8984 26.1026 65.7216 25.906 65.5687L3.79079 48.368C2.24655 47.1669 2.24655 44.833 3.79079 43.6319L25.906 26.4312C26.1026 26.2783 26.2793 26.1015 26.4322 25.905L43.6329 3.78976Z" stroke="white" stroke-width="2"/>
+                    <rect x="40" y="40" width="12" height="12" rx="2" fill="#F0C171"/>
+                  </svg>
+                </div>
+                <div class="mt-5">
+                  <dt class="text-xl leading-6 font-bold text-white">
+                    Courage
+                  </dt>
+                  <dd class="mt-2 text-base text-white">
+                    We take risks and learn from failure. We are resilient.
+                  </dd>
+                </div>
+              </div>
+
+              <div class="bg-everglade-900 py-12 px-10 text-center items-center justify flex-col flex">
+                <div class="flex items-center justify-center h-20 w-20 rounded-md text-white">
+                  <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="49.9997" cy="50.0001" rx="46.7937" ry="14.7937" stroke="white" stroke-width="2"/>
+                    <ellipse opacity="0.2" cx="50.0002" cy="50" rx="46.7936" ry="14.7937" transform="rotate(15 50.0002 50)" stroke="white" stroke-width="2"/>
+                    <ellipse opacity="0.2" cx="50.0007" cy="50" rx="46.7936" ry="14.7937" transform="rotate(30 50.0007 50)" stroke="white" stroke-width="2"/>
+                    <ellipse opacity="0.2" cx="50.0005" cy="50" rx="46.7936" ry="14.7936" transform="rotate(45 50.0005 50)" stroke="white" stroke-width="2"/>
+                    <ellipse opacity="0.2" cx="50.0003" cy="49.9996" rx="46.7936" ry="14.7936" transform="rotate(70 50.0003 49.9996)" stroke="white" stroke-width="2"/>
+                    <ellipse opacity="0.2" cx="50.0002" cy="49.9997" rx="46.7936" ry="14.7936" transform="rotate(85 50.0002 49.9997)" stroke="white" stroke-width="2"/>
+                    <path d="M43.7474 46.3632C43.9107 45.9506 44.1501 45.5758 44.4519 45.26C44.7537 44.9443 45.112 44.6938 45.5063 44.5229C45.9006 44.352 46.3232 44.264 46.75 44.264C47.1768 44.264 47.5994 44.352 47.9937 44.5229C48.3881 44.6938 48.7463 44.9443 49.0481 45.26C49.5667 45.8026 50.4333 45.8026 50.9519 45.26C51.5614 44.6223 52.388 44.264 53.25 44.264C54.1119 44.264 54.9386 44.6223 55.5481 45.26C56.1576 45.8977 56.5 46.7626 56.5 47.6645C56.5 48.5664 56.1576 49.4313 55.5481 50.069L51.4458 54.3611C50.6581 55.1853 49.3419 55.1853 48.5542 54.3611L44.4519 50.069C44.1501 49.7532 43.9107 49.3784 43.7474 48.9658C43.5841 48.5532 43.5 48.1111 43.5 47.6645C43.5 47.2179 43.5841 46.7758 43.7474 46.3632Z" fill="#F0C171"/>
+                  </svg>
+                </div>
+                <div class="mt-5">
+                  <dt class="text-xl leading-6 font-bold text-white">
+                    Compassion
+                  </dt>
+                  <dd class="mt-2 text-base text-white">
+                    We act with empathy, caring for our communities and the world.
+                  </dd>
+                </div>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Our Mission -->
+  <div class="relative bg-white pb-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mt-24">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-12 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+            <div>
+              <div class="mt-6">
+                <h2 class="text-sm sm:text-sm text-everglade-600 font-semibold tracking-wide uppercase">
+                  Our Mission
+                </h2>
+                <p class="heading-2 mt-6 font-display text-3xl leading-8 text-gray-900 sm:text-4xl">
+                  Fostering a community of inquisitive learners and independent thinkers, inspired to be their best selves, empowered to make a difference.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+            <div class="sm:max-w-md sm:w-full sm:mx-auto relative">
+              <img class="z-index-1 object-cover hero-image-left two-x" src="src/images/the-academy-our-mission-2.jpg" alt="">
+              <img class="object-cover absolute hero-image-right two-x" src="src/images/the-academy-our-mission-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="mt-24 bg-everglade-900" id="academics">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
+      <div class="lg:text-center">
+        <h2 class="text-sm text-amarillo-500 tracking-widest uppercase">
+          Academics
+        </h2>
+        <p class="mt-6 font-display text-white text-4xl sm:text-5xl">
+          A different way to live & learn
+        </p>
+        <p class="mt-10 max-w-3xl text-lg text-white lg:mx-auto">
+          Here, you decide which academic passions to pursue. An education at the Academy will challenge you to be your best self and prepare you for a life of purpose.
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+      <div>
+        <ul class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <li class="border-8 border-everglade-300 border-opacity-20 col-span-1 flex px-4 pt-6 pb-16 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-amarillo-500 text-4xl font-bold">
+                  10:1
+                </span>
+              </div>
+              <div class="">
+                <span class="text-white text-xl font-display">
+                  student to faculty ratio
+                </span>
+              </div>
+            </div>
+            <div class="mt-8">
+              <span class="text-white text-lg">
+                All courses are taught by professors—most hold a Ph.D. or terminal degree in their field.
+              </span>
+            </div>
+          </li>
+
+          <li class="border-8 border-everglade-300 border-opacity-40 col-span-1 flex px-4 pt-6 pb-16 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-amarillo-500 text-4xl font-bold">
+                  50
+                </span>
+              </div>
+              <div class="">
+                <span class="text-white text-xl font-display">
+                  majors, minors and concentrations.
+                </span>
+              </div>
+            </div>
+            <div class="mt-8">
+              <span class="text-white text-lg">
+                Approximately 20% of The Academy students pursue a double or self-designed major.
+              </span>
+            </div>
+          </li>
+
+          <li class="border-8 border-everglade-300 border-opacity-60 col-span-1 flex px-4 pt-6 pb-16 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-amarillo-500 text-4xl font-bold">
+                  30%
+                </span>
+              </div>
+              <div class="">
+                <span class="text-white text-xl font-display">
+                  of our students major in the sciences.
+                </span>
+              </div>
+            </div>
+            <div class="mt-8">
+              <span class="text-white text-lg">
+                Our students are often recognized with the most prestigious scholarships in STEM.
+              </span>
+            </div>
+          </li>
+
+          <li class="border-8 border-everglade-300 border-opacity-80 col-span-1 flex px-4 pt-6 pb-16 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-amarillo-500 text-4xl font-bold">
+                  92%
+                </span>
+              </div>
+              <div class="">
+                <span class="text-white text-xl font-display">
+                  of students progress to higher education
+                </span>
+              </div>
+            </div>
+            <div class="mt-8">
+              <span class="text-white text-lg">
+                Nearly 70% of students go on to grad school within 10 years of graduation.
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+      <div class="relative pt-16 pb-32 overflow-hidden">
+        <div class="relative">
+          <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-">
+                  <h2 class="text-xs text-amarillo-600 tracking-widest uppercase">
+                    REMOTE & HYBRID LEARNING
+                  </h2>
+                  <p class="mt-6 font-display text-white text-4xl sm:text-4xl">
+                    Continuity of Learning
+                  </p>
+                  <p class="mt-8 max-w-2xl text-lg text-white lg:mx-auto">
+                    During these times of uncertainty, The Academy offers seamless transitions between on-site, remote and hybrid learning. This maintains high academic standards and supports mental wellbeing and our strong sense of community.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+              <div class="sm:max-w-md sm:w-full sm:mx-auto relative">
+                <img class="two-x object-cover hero-image-left" src="src/images/the-academy-hybrid-remote-learning-1.jpg" alt="">
+                <img class="two-x object-cover absolute hero-image-right" src="src/images/hero-image-1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-40">
+          <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+              <div>
+                <div class="mt-">
+                  <h2 class="text-xs text-amarillo-600 tracking-widest uppercase">
+                    EXAM RESULTS & UNIVERSITY DESTINATIONS
+                  </h2>
+                  <p class="mt-6 font-display text-white text-4xl sm:text-4xl">
+                    Acheiving Excellence
+                  </p>
+                  <p class="mt-8 max-w-2xl text-lg text-white lg:mx-auto">
+                    The Academy has a well-deserved reputation for academic success. It attracts bright student, who thrive amongst like-minded friends, and fulfil their potential. After The Academy, pupils progress to top universities in the Japan and abroad.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+              <div class="sm:max-w-md sm:w-full sm:mx-auto relative">
+                <img class="two-x object-cover hero-image-left" src="src/images/the-academy-acheiving-excellence-2.jpg" alt="">
+                <img class="two-x object-cover absolute hero-image-right" src="src/images/the-academy-acheiving-excellence-1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-40">
+          <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-">
+                  <h2 class="text-xs text-amarillo-600 tracking-widest uppercase">
+                    COMMUNITY
+                  </h2>
+                  <p class="mt-6 font-display text-white text-4xl sm:text-4xl">
+                    Building an extra-curricular community
+                  </p>
+                  <p class="mt-8 max-w-2xl text-lg text-white lg:mx-auto">
+                    Outside the classrooms our students form friendships through the many clubs and societies on offer. New clubs are formed when interests are shared. A huge choice of activities, both sporting and cultural, give students the chance to balance their academic schedules with broader and less pressurised pursuits.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+              <div class="sm:max-w-md sm:w-full sm:mx-auto relative">
+                <img class="two-x object-cover hero-image-left" src="src/images/the-academy-community-2.jpg" alt="">
+                <img class="two-x object-cover absolute hero-image-right" src="src/images/the-academy-community-1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <div class="bg-gray-50" id="student-life">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-36 pb-16">
+      <div class="lg:text-center">
+        <h2 class="text-base text-everglade-500 font-bold tracking-widest uppercase">
+          Student Life
+        </h2>
+        <p class="mt-6 font-display text-4xl sm:text-5xl">
+          Life at the Academy
+        </p>
+        <p class="mt-10 max-w-3xl text-lg lg:mx-auto">
+          The Academy is a place where you'll do more than learn what others have already discovered. You'll try out new interests and uncover talents you didn't know you had. Meet interesting people who share your passions and others who will flip your worldview in ways you could never imagine. Follow your curiosity to its limits, and make discoveries and breakthroughs that make a difference to your campus, community and even the world.
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div>
+        <ul class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <li class="border-8 border-everglade-200 bg-white col-span-1 flex px-4 pt-6 pb-24 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-everglade-500 text-4xl font-bold">
+                  40
+                </span>
+              </div>
+              <div class="">
+                <span class="text-xl font-display">
+                  The average number of theatrical productions held on campus every year.
+                </span>
+              </div>
+            </div>
+          </li>
+
+          <li class="border-8 border-everglade-300 bg-white col-span-1 flex px-4 pt-6 pb-24 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-everglade-500 text-4xl font-bold">
+                  13
+                </span>
+              </div>
+              <div class="">
+                <span class="text-xl font-display">
+                  instrumental groups perform each semester, including the the Sundanese gamelan degung ensemble.
+                </span>
+              </div>
+            </div>
+          </li>
+
+          <li class="border-8 border-everglade-400 bg-white col-span-1 flex px-4 pt-6 pb-24 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-everglade-500 text-4xl font-bold">
+                  8
+                </span>
+              </div>
+              <div class="">
+                <span class="text-xl font-display">
+                  student acapella groups warble regularly on campus—some tour during winter and spring breaks.
+                </span>
+              </div>
+            </div>
+          </li>
+
+          <li class="border-8 border-everglade-600  bg-white col-span-1 flex px-4 pt-6 pb-24 flex flex-col justify-between">
+            <div>
+              <div class="mb-2">
+                <span class="text-everglade-500 text-4xl font-bold">
+                  3
+                </span>
+              </div>
+              <div class="">
+                <span class="text-xl font-display">
+                  spring exhibition in the  Gallery featuring works by senior studio art majors in their final step towards graduation.
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    
+
+    <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div class="relative max-w-7xl mx-auto">
+        <div class="lg:text-center">
+          <h2 class="text-xs text-everglade-500 font-bold tracking-widest uppercase">
+            LIFE OUTSIDE THE CLASSROOM
+          </h2>
+          <p class="mt-6 font-display text-4xl sm:text-4xl">
+            Clubs, Societies, Arts & Culture
+          </p>
+        </div>
+
+        <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-12 lg:max-w-none">
+
+          <div class="flex flex-col lg:col-span-5 overflow-hidden">
+            <div class="flex-1 bg-white flex flex-col justify-between">
+              <div class="flex-1 relative">
+                <div class="absolute inset-0">
+                  <img class="h-full w-full object-cover" src="src/images/the-academy-arts.jpg" alt="The Academy School">
+                  <div class="absolute inset-0 bg-gray-400" style="mix-blend-mode: multiply;"></div>
+                </div>
+
+                <div class="block mt-2 relative p-8 pt-64">
+                  <span class="text-xl font-semibold text-white border-t-2 border-amarillo-500 pt-4">
+                    Arts
+                  </span>
+                  <p class="mt-3 text-base text-white">
+                    There is certainly no shortage of opportunities for students to shine in the arts with opportunities to act, play music and engage in debate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col lg:col-span-7 overflow-hidden">
+            <div class="flex-1 bg-white flex flex-col justify-between">
+              <div class="flex-1 relative">
+                <div class="absolute inset-0">
+                  <img class="h-full w-full object-cover" src="src/images/the-academy-athletics.jpg" alt="The Academy School">
+                  <div class="absolute inset-0 bg-gray-400" style="mix-blend-mode: multiply;"></div>
+                </div>
+
+                <div class="block mt-2 relative p-8 pt-64">
+                  <span class="text-xl font-semibold text-white border-t-2 border-amarillo-500 pt-4">
+                    Athletics
+                  </span>
+                  <p class="mt-3 text-base text-white">
+                    Our high school teams compete in 15 sports against other schools in 250 matches.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-6 max-w-lg mx-auto grid gap-5 lg:grid-cols-12 lg:max-w-none">
+
+          <div class="flex flex-col lg:col-span-7 overflow-hidden">
+            <div class="flex-1 bg-white flex flex-col justify-between">
+              <div class="flex-1 relative">
+                <div class="absolute inset-0">
+                  <img class="h-full w-full object-cover" src="src/images/the-academy-student-travel.jpg" alt="The Academy School">
+                  <div class="absolute inset-0 bg-gray-400" style="mix-blend-mode: multiply;"></div>
+                </div>
+
+                <div class="block mt-2 relative p-8 pt-64">
+                  <span class="text-xl font-semibold text-white border-t-2 border-amarillo-500 pt-4">
+                    Student Travel
+                  </span>
+                  <p class="mt-3 text-base text-white">
+                    Get to know one another in person while experiencing a new place or culture.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col lg:col-span-5 overflow-hidden">
+            <div class="flex-1 bg-white flex flex-col justify-between">
+              <div class="flex-1 relative">
+                <div class="absolute inset-0">
+                  <img class="h-full w-full object-cover" src="src/images/the-academy-meetups.jpg" alt="The Academy School">
+                  <div class="absolute inset-0 bg-gray-400" style="mix-blend-mode: multiply;"></div>
+                </div>
+
+                <div class="block mt-2 relative p-8 pt-64">
+                  <span class="text-xl font-semibold text-white border-t-2 border-amarillo-500 pt-4">
+                    Meetups
+                  </span>
+                  <p class="mt-3 text-base text-white">
+                    Host in-person events for students to gather together and further the bonds they have made in classes online.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-6 grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-12">
+
+          <div class="flex flex-col lg:col-span-5 overflow-hidden">
+            <div class="flex-1 bg-white flex flex-col justify-between">
+              <div class="flex-1 relative">
+                <div class="absolute inset-0">
+                  <img class="h-full w-full object-cover" src="src/images/the-academy-clubs.jpg" alt="The Academy School">
+                  <div class="absolute inset-0 bg-gray-400" style="mix-blend-mode: multiply;"></div>
+                </div>
+
+                <div class="block mt-2 relative p-8 pt-64">
+                  <span class="text-xl font-semibold text-white border-t-2 border-amarillo-500 pt-4">
+                    Student Clubs & Circles
+                  </span>
+                  <p class="mt-3 text-base text-white">
+                    The Academy offers numerous clubs and circles that appeal to a variety of different interests.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col lg:col-span-7 overflow-hidden">
+            <div class="flex-1 bg-white flex flex-col justify-between">
+              <div class="flex-1 relative">
+                <div class="absolute inset-0">
+                  <img class="h-full w-full object-cover" src="src/images/the-academy-service.jpg" alt="The Academy School">
+                  <div class="absolute inset-0 bg-gray-400" style="mix-blend-mode: multiply;"></div>
+                </div>
+
+                <div class="block mt-2 relative p-8 pt-64">
+                  <span class="text-xl font-semibold text-white border-t-2 border-amarillo-500 pt-4">
+                    Service
+                  </span>
+                  <p class="mt-3 text-base text-white">
+                    Service projects offer our students challenging ways to learn and contribute to society.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Testimonials -->
+  <section class="pb-12 bg-gray-50 overflow-hidden md:pb-20 lg:pb-40 pt-12 text-center items-center flex">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center flex-col">
+      <div class="flex items-center justify-center h-10 w-10 rounded-full bg-everglade-500 text-white">
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+        </svg>
+      </div>
+
+      <div class="relative">
+        <blockquote class="mt-10">
+          <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+            <p>
+              &ldquo;The Academy has established a truly amazing community of learners, educators and supporters. The school provides a unique hybrid space with online flipped classrooms enriched by in-person opportunities through regional meetups and residential programs.&rdquo;
+            </p>
+          </div>
+          <footer class="mt-8">
+            <div class="md:flex md:items-center md:justify-center">
+              <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                <div class="text-base font-medium text-gray-900">Tomohiro Hoshi, Ph.D.</div>
+
+                <svg class="hidden md:block mx-1 h-5 w-5 text-everglade-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M11 0h3L9 20H6l5-20z" />
+                </svg>
+
+                <div class="text-base font-medium text-gray-500">Head of School</div>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="py-40 bg-amarillo-100 overflow-hidden" id="admissions">
+    <div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
+      <div class="text-base max-w-prose">
+        <h2 class="text-base text-everglade-500 font-bold tracking-widest uppercase">
+          Admissions
+        </h2>
+        <p class="mt-6 font-display text-4xl sm:text-5xl">
+          Supporting your application
+        </p>
+      </div>
+      <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+        <div class="relative z-10">
+          <div class="prose prose-everglade text-gray-500 mx-auto lg:max-w-none">
+            <p class="text-lg text-gray-500">
+              The Academy has its own unique admissions process. We look for students with enquiring minds and natural intelligence. Our founder’s ethos was to educate such people, whatever their background, hence our generous bursary provision.  Experienced staff assist in every stage of the process, from initial inquiry through to choosing a house, to sitting the entrance exams.
+            </p>
+          </div>
+          <div class="mt-16 flex text-base max-w-prose lg:max-w-none">
+            <div class="rounded-md shadow">
+              <a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-everglade-600 hover:bg-everglade-700">
+                Apply Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 relative text-base max-w-prose mx-0 sm:mx-auto lg:mt-0 lg:max-w-none">
+          <h2 class="text-sm text-everglade-600 font-semibold tracking-wide uppercase">
+            Office of Admissions
+          </h2>
+
+          <div class="flex flex-row items-center mt-6">
+            <div class="flex items-center justify-center h-10 w-10 rounded-full bg-everglade-900 text-white">
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </div>
+            <span class="text-lg mb-1 ml-4 border-b-2 border-amarillo-500">
+              5555-222-1412
+            </span>
+          </div>
+
+          <div class="flex flex-row items-center mt-6">
+            <div class="flex items-center justify-center h-10 w-10 rounded-full bg-everglade-900 text-white">
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <span class="text-lg mb-1 ml-4 border-b-2 border-amarillo-500">
+              admissions@theacademy.com
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="relative overflow-hidden bg-everglade-700">
+    <div class="absolute inset-0">
+      <img class="h-full w-full object-cover" src="src/images/the-academy-school.jpg" alt="The Academy School">
+      <div class="absolute inset-0 bg-everglade-400" style="mix-blend-mode: multiply;"></div>
+    </div>
+    <div class="relative px-4 py-16 sm:px-6 sm:py-32 lg:py-40 lg:px-8">
+      <div class="max-w-5xl mx-auto text-center">
+        <p class="mt-8 font-display text-white text-4xl sm:text-5xl">
+          An international school for the global world.
+        </p>
+        <p class="mt-10 max-w-3xl text-lg text-white mx-auto">
+          The Academy offers an American-style college preparatory education. With a standards-based curriculum culminating in an a high school diploma, our program develops the necessary skills for today's global world.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+    <footer class="bg-everglade-900 z-10 relative" aria-labelledby="footerHeading">
+      <h2 id="footerHeading" class="sr-only">Footer</h2>
+      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div class="pb-8 xl:grid xl:grid-cols-4 xl:gap-8">
+          <div class="grid grid-cols-2 gap-8 xl:col-span-4">
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div class="mt-2">
+                <a href="#home">
+                  <span class="text-lg text-gossip-500 font-bold tracking-wide">The Academy</span>
+                </a>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <ul class="mt-4 space-y-4">
+                  <li>
+                    <a href="#our-school" class="text-base text-white hover:text-white">
+                      Our School
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#academics" class="text-base text-white hover:text-white">
+                      Academics
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#student-life" class="text-base text-white hover:text-white">
+                      Student Life
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#admissions" class="text-base text-white hover:text-white">
+                      Admissions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#admissions" class="text-base text-amarillo-500 hover:text-amarillo-400">
+                      Apply now
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <ul class="mt-4 space-y-4">
+                  <li>
+                    <a href="#admissions" class="text-base text-white hover:text-white">
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-base text-white hover:text-white">
+                      Privacy Policy
+                    </a>
+                  </li>
+                  </ul>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <h3 class="font-bold text-white">
+                  Shinjuku Campus
+                </h3>
+                <ul class="mt-4 space-y-4">
+                  <li>
+                    <a href="#" class="text-base text-white hover:text-white">
+                      14-2 Nomizu, Shinjuku<br>
+                      Tokyo 182-0031
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-base text-amarillo-500 hover:text-amarillo-400">
+                      (+81) 123-34-5300
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 border-t border-gray-900 pt-8 md:flex md:items-center md:justify-between">
+          <p class="mt-8 text-sm text-white md:mt-0 md:order-1">
+            The Academy &copy; 2021
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
