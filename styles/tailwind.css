@@ -21,6 +21,8 @@ html {
 html,
 body {
   font-family: 'RelativeFaux', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+  -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
   position: relative;
   overflow-x: hidden;
 }
@@ -29,8 +31,11 @@ h1,
 h2,
 h3,
 h4,
-h5 {
-  font-family: 'RelativeBold', "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+h5,
+.text-serif {
+  font-family: 'RelativeBold', "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace !important;
+  -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+  -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
 }
 
 @tailwind base;
@@ -44,11 +49,11 @@ h5 {
 }
 
 .btn {
-  @apply inline-flex items-center px-4 py-2 shadow-sm rounded text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-everglade-500;
+  @apply inline-flex items-center px-5 py-3 border border-transparent shadow-sm text-base rounded-md text-black bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500;
 }
 
 .btn-primary {
-  @apply bg-everglade-500 text-white;
+  @apply bg-yellow-500 text-black;
 }
 
 .btn-secondary {

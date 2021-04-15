@@ -1,1 +1,608 @@
-<!doctype html><html lang="en"><head><title>Build.io</title><meta charset="UTF-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover"><link rel="stylesheet" href="/style.css?v=1618353601246"><script src="/js/alpine.js?v=1618353601247"></script></head><body><div x-data="{open:false}" class="relative"><div class="relative bg-gray-900"><div class="max-w-7xl mx-auto px-4 sm:px-6"><div class="flex justify-between items-center py-6 md:justify-start md:space-x-10"><div class="flex justify-start lg:w-0 lg:flex-1"><a href="#home"><img class="h-8" src="src/images/build-logo.svg" alt=""></a></div><div class="-mr-2 -my-2 md:hidden"><button @click="open = true" type="button" class="rounded p-2 inline-flex items-center justify-center text-white hover:text-amarillo-500 hover:bg-everglade-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-everglade-500"><span class="sr-only">Open menu</span> <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button></div><div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0"><a href="" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">How it works </a><a href="" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">Why Build.io </a><a href="" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">Benefits </a><a href="" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">FAQ </a><a href="" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">Documentation</a></div></div></div><div x-show="open" class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right"><div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50"><div class="pt-3 pb-6 px-4"><div class="flex items-center justify-between"><div><a href="#home"><span class="text-lg text-everglade-500 font-bold tracking-wide">The Academy</span></a></div><div class="-mr-2"><button @click="open = false" type="button" class="bg-white rounded p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-everglade-500"><span class="sr-only">Close menu</span><svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button></div></div><div class="mt-6"><nav class="grid gap-y-8"><a href="#our-school" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">Our School </span></a><a href="#academics" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">Academics </span></a><a href="#student-life" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">Student Life </span></a><a href="#admissions" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">Admissions</span></a></nav></div></div></div></div></div></div><main><div class="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden"><div class="mx-auto max-w-7xl lg:px-8"><div class="lg:grid lg:grid-cols-2 lg:gap-8"><div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"><div class="lg:py-24"><h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"><span class="block">Deploy your app to any host in minutes</span></h1><p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Get a portable version of your app that will run anywhere! Deploy to Amazon EC2, GCP, Kubernetes, Digital Ocean & more.</p><div class="mt-4 sm:mt-4"><a href="" class="mt-12 inline-flex items-center px-6 py-3 border border-transparent text-lg rounded shadow-sm text-everglade-500 bg-amarillo-500 hover:bg-amarillo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-everglade-500">Connect to your Github repo</a></div></div></div><div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative"><div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"><img class="hero-image w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="src/images/hero-illustration.svg" alt=""></div></div></div></div></div><div class="relative bg-gray-800 pt-16 pb-32 overflow-hidden"><div class="max-w-3xl mx-auto text-center"><h2 class="text-4xl font-extrabold text-white">How it works</h2><p class="mt-4 text-lg text-gray-200">Work in any language, deploy to any environment.</p></div><div class="relative mt-20"><div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"><div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"><div><div class="mt-0"><h3 class="text-2xl text-white">1. Connect your Github project</h3><p class="mt-4 text-lg text-gray-300">Build.io is fully integrated into Github. Use the right tool for the job and authenticate with Build.io to get your app ready to launch.</p><img class="mt-4" src="src/images/temp-dev-logos.svg" alt="Dev languages"></div></div></div><div class="mt-12 sm:mt-16 lg:mt-0"><div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-full lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-1.svg" alt="Build.io - How it works - Step 1"></div></div></div></div><div class="relative mt-32"><div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"><div class="mt-12 sm:mt-16 lg:mt-0"><div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-full lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-2.svg" alt="Build.io - How it works - Step 2"></div></div><div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"><div><div class="mt-0"><h3 class="text-2xl text-white">2. Build.io detects the right buildpack for your project</h3><p class="mt-4 text-lg text-gray-300">Build.io is fully integrated into Github. Use the right tool for the job and authenticate with Build.io to get your app ready to launch.</p></div></div></div></div></div><div class="relative mt-20"><div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"><div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"><div><div class="mt-0"><h3 class="text-2xl text-white">3. Your docker image is registered and ready to run locally!</h3><p class="mt-4 text-lg text-gray-300">Build.io registers your buildpack which is ready to run locally with a simple pull and run.</p></div></div></div><div class="mt-12 sm:mt-16 lg:mt-0"><div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-full lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-3.svg" alt="Build.io - How it works - Step 3"></div></div></div></div><div class="relative mt-32"><div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"><div class="mt-12 sm:mt-16 lg:mt-0"><div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-full lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-4.svg" alt="Build.io - How it works - Step 4"></div></div><div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"><div><div class="mt-0"><h3 class="text-2xl text-white">Deploy to any environment</h3><p class="mt-4 text-lg text-gray-300">Push it up to the docker image registry, and once you get it in there it's trivially easy to start a copy of your app in any environment.</p></div></div></div></div></div></div><div class="relative bg-gray-900 pt-16 pb-32 overflow-hidden"><div class="max-w-3xl mx-auto text-center"><h2 class="text-4xl font-extrabold text-white">You used to have to make hard choices</h2></div><div class="mt-8 sm:mt-12 lg:mt-16"><div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0"><div class="flex flex-col rounded-lg overflow-hidden border-teal-500 border border-opacity-50"><div class="flex-1 flex flex-row justify-between items-start px-6 pt-6 pb-8 space-x-2 sm:p-10 sm:pt-6"><div class="flex flex-row items-start"><img class="w-5 mr-5" src="src/images/radio-selected.svg" alt="Radio"><ul class="space-y-4"><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">Developer Friendly</p></li><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">Lightweight</p></li><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">Quick to Market</p></li><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">Simple</p></li></ul></div><img class="w-5" src="src/images/logo-heroku.svg" alt="Heroku"></div></div><div class="flex flex-col rounded-lg overflow-hidden border-orange-500 border border-opacity-50"><div class="flex-1 flex flex-row justify-between items-start px-6 pt-6 pb-8 space-x-2 sm:p-10 sm:pt-6"><div class="flex flex-row items-start"><div class="w-5 h-5 mr-5 bg-white border border-gray-300 rounded-full"></div><ul class="space-y-4"><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">Cost optimised</p></li><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">High Security</p></li><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">High Availability</p></li><li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div><p class="ml-3 text-base text-gray-300">Robust</p></li></ul></div><img class="w-5" src="src/images/logo-aws.svg" alt="AWS"></div></div></div></div></div><div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"><img class="mx-auto mb-8" src="src/images/best-of-both.svg" alt="Best of both worlds"><h3 class="text-center text-xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl">Get the best of both worlds with Build.io</h3><p class="mt-4 max-w-3xl mx-auto text-center text-gray-300 text-xl">Enjoy the high productivity environment that you get with an easy-to-use platform like Heroku but retain the control and robustness that you get from an Amazon or Google - the best of both worlds!</p><div class="max-w-5xl mx-auto mt-6 justify-center flex space-x-2"><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Cost optimised </span><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> High Security </span><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> High Availability </span><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Simple</span></div><div class="max-w-5xl mx-auto mt-2 justify-center flex space-x-2"><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> High developer productivity </span><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> No operational side </span><span class="inline-flex items-center px-4 py-2 rounded bg-gray-700 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Highly robust platform</span></div></div></div><div class="bg-gray-800"><div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8"><div class="max-w-3xl mx-auto text-center"><h2 class="text-4xl font-extrabold text-white">With all the advantages of cloud native buildpacks</h2></div><dl class="mt-24 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8"><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Advanced Caching</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Robust caching is used to improve performance.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Reproducibility</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Reproduces the same app image digest by re-running the build.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Modular / Pluggable</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Multiple buildpacks can be used to create an app image.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Rebasing</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Instant updates of base images without re-building.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Multi-language</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Supports more than one programming language family.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Bill-of-Materials</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Insights into the contents of the app image.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Minimal app image</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Image contains only what is necessary.</dd></div><div class="relative"><dt><svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><h5 class="ml-9 text-lg leading-6 text-white">Reusability</h5></dt><dd class="mt-2 ml-9 text-base text-gray-500">Leverage prod-ready buildpacks from the community.</dd></div></dl></div></div><div class="bg-gray-800"><div class="max-w-7xl mx-auto py-16 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="max-w-3xl mx-auto"><h2 class="text-3xl font-extrabold text-white sm:text-4xl">Frequently asked questions</h2><dl class="mt-6 space-y-6 divide-y divide-gray-600"><div x-data="{open1:false}" class="pt-6"><dt class="text-lg"><div @click="open1 = !open1" type="button" class="text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"><span class="font-medium text-white">How is Build.io different to Heroku? </span><span class="ml-6 h-7 flex items-center"><svg :class="{ 'block' : !open1 , '-rotate-180' : open1}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></span></div></dt><dd x-show="open1" class="mt-2 pr-12" id="faq-0"><p class="text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></dd></div><div x-data="{open2:false}" class="pt-6"><dt class="text-lg"><div @click="open2 = !open2" type="button" class="text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"><span class="font-medium text-white">Who is this for? </span><span class="ml-6 h-7 flex items-center"><svg :class="{ 'block' : !open2 , '-rotate-180' : open2}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></span></div></dt><dd x-show="open2" class="mt-2 pr-12" id="faq-0"><p class="text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></dd></div><div x-data="{open3:false}" class="pt-6"><dt class="text-lg"><div @click="open3 = !open3" type="button" class="text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"><span class="font-medium text-white">What is the output? </span><span class="ml-6 h-7 flex items-center"><svg :class="{ 'block' : !open3 , '-rotate-180' : open3}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></span></div></dt><dd x-show="open3" class="mt-2 pr-12" id="faq-0"><p class="text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></dd></div><div x-data="{open4:false}" class="pt-6"><dt class="text-lg"><div @click="open4 = !open4" type="button" class="text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"><span class="font-medium text-white">What does it cost? </span><span class="ml-6 h-7 flex items-center"><svg :class="{ 'block' : !open4 , '-rotate-180' : open4}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></span></div></dt><dd x-show="open4" class="mt-2 pr-12" id="faq-0"><p class="text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></dd></div><div x-data="{open5:false}" class="pt-6"><dt class="text-lg"><div @click="open5 = !open5" type="button" class="text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"><span class="font-medium text-white">Is it a scalable solution? </span><span class="ml-6 h-7 flex items-center"><svg :class="{ 'block' : !open5 , '-rotate-180' : open5}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></span></div></dt><dd x-show="open5" class="mt-2 pr-12" id="faq-0"><p class="text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></dd></div><div x-data="{open6:false}" class="pt-6"><dt class="text-lg"><div @click="open6 = !open6" type="button" class="text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false"><span class="font-medium text-white">What is a buildpack, image, container? </span><span class="ml-6 h-7 flex items-center"><svg :class="{ 'block' : !open6 , '-rotate-180' : open6}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></span></div></dt><dd x-show="open6" class="mt-2 pr-12" id="faq-0"><p class="text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p></dd></div></dl></div></div></div></main><div class="bg-gray-900"><div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between"><h2 class="text-3xl tracking-tight text-white md:text-4xl w-1/2"><span class="block">Deploy your application to any environment in minutes</span></h2><div class="mt-8 flex lg:mt-0 lg:flex-shrink-0"><div class="inline-flex rounded-md shadow"><a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Get started</a></div></div></div></div><footer class="bg-gray-900 z-10 relative" aria-labelledby="footerHeading"><h2 id="footerHeading" class="sr-only">Footer</h2><div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:pb-16 lg:px-8"><div class="border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between"><div class="flex items-center"><img class="h-6 mr-2" src="src/images/build-logo.svg" alt=""><p class="mt-8 text-sm text-gray-300 md:mt-0 md:order-1">Deploy your app in minutes</p></div><p class="mt-8 text-sm text-gray-300 md:mt-0 md:order-1">© 2021 Build.io, Inc. All rights reserved.</p></div></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Build.io</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover" />
+    <link rel="stylesheet" href="style.css?v=1618516229143" />
+    <script src="js/alpine.js?v=1618516229143"></script>
+  </head>
+  <body>
+    <div x-data="{open:false}" class="relative">
+      <div class="relative bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+              <a href="#home"><img class="h-8" src="src/images/build-logo.svg" alt="" /></a>
+            </div>
+            <div class="-mr-2 -my-2 md:hidden">
+              <button
+                @click="open = true"
+                type="button"
+                class="rounded p-2 inline-flex items-center justify-center text-white hover:text-amarillo-500 hover:bg-everglade-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-everglade-500"
+              >
+                <span class="sr-only">Open menu</span>
+                <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+              <a href="#how-it-works" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">How it works </a><a href="#why-build" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">Why Build.io </a>
+              <a href="#benefits" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">Benefits </a><a href="#faq" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">FAQ </a>
+              <a href="" class="text-base font-medium text-white hover:text-amarillo-500 mr-6">Documentation</a>
+            </div>
+          </div>
+        </div>
+        <div x-show="open" class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right">
+          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+            <div class="pt-3 pb-6 px-4">
+              <div class="flex items-center justify-between">
+                <div>
+                  <a href="#home"><img class="h-8" src="src/images/build-logo.svg" alt="" /></a>
+                </div>
+                <div class="-mr-2">
+                  <button
+                    @click="open = false"
+                    type="button"
+                    class="bg-white rounded p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-everglade-500"
+                  >
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-6">
+                <nav class="grid gap-y-8">
+                  <a href="#how-it-works" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">How it works </span></a>
+                  <a href="#why-build" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">Why Build.io </span></a>
+                  <a href="#benefits" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">Benefits </span></a>
+                  <a href="#faq" class="-m-3 p-3 flex items-center rounded hover:bg-gray-50"><span class="ml-3 text-base font-medium text-gray-900">FAQ</span></a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="lg:relative bg-gray-900 overflow-hidden">
+        <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-32 lg:text-left">
+          <div class="ml-6 pt-8 pb-20 lg:w-1/2 xl:pr-16">
+            <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"><span class="block">Deploy your app to any host in minutes</span></h1>
+            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Get a portable version of your app that will run anywhere! Deploy to Amazon EC2, GCP, Kubernetes, Digital Ocean & more.</p>
+            <div class="mt-4 sm:mt-4">
+              <a
+                href=""
+                class="mt-12 inline-flex items-center px-6 py-3 border border-transparent text-lg rounded shadow-sm text-everglade-500 bg-yellow-500 hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-everglade-500"
+              >
+                Connect to your Github repo
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"><img class="absolute inset-0 w-full" src="src/images/hero-illustration.svg" alt="" /></div>
+      </div>
+      <div class="relative bg-gray-800 pt-32 pb-32 overflow-hidden" id="how-it-works">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-5xl font-extrabold text-white">How it works</h2>
+          <p class="mt-4 text-xl text-gray-200">Work in any language, deploy to any environment.</p>
+        </div>
+        <div class="relative mt-24">
+          <div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="col-start-2 mt-12 sm:mt-16 lg:mt-0">
+              <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-auto lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-1.svg" alt="Build.io - How it works - Step 1" /></div>
+            </div>
+            <div class="mt-8 lg:mt-0 col-start-1 max-w-xl px-6 lg:py-8 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-0">
+                  <h3 class="text-2xl text-white">1. Connect your Github project</h3>
+                  <p class="mt-4 text-lg text-gray-300">Build.io is fully integrated into Github. Use the right tool for the job and authenticate with Build.io to get your app ready to launch.</p>
+                  <img class="mt-4" src="src/images/temp-dev-logos.svg" alt="Dev languages" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative mt-32">
+          <div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+              <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-auto lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-2.svg" alt="Build.io - How it works - Step 2" /></div>
+            </div>
+            <div class="mt-8 lg:mt-0 max-w-xl px-6 lg:py-8 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-0">
+                  <h3 class="text-2xl text-white">2. Build.io detects the right buildpack for your project</h3>
+                  <p class="mt-4 text-lg text-gray-300">Build.io is fully integrated into Github. Use the right tool for the job and authenticate with Build.io to get your app ready to launch.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative mt-40">
+          <div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="col-start-2 mt-12 sm:mt-16 lg:mt-0">
+              <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-auto lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-3.svg" alt="Build.io - How it works - Step 3" /></div>
+            </div>
+            <div class="mt-8 lg:mt-0 col-start-1 max-w-xl px-6 lg:pt-12 lg:pb-6 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-0">
+                  <h3 class="text-2xl text-white">3. Your docker image is registered and ready to run locally!</h3>
+                  <p class="mt-4 text-lg text-gray-300">Build.io registers your buildpack which is ready to run locally with a simple pull and run.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative mt-40">
+          <div class="lg:mx-auto lg:max-w-5xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+              <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"><img class="w-auto lg:absolute left-0 w-auto max-w-none" src="src/images/how-it-works-4.svg" alt="Build.io - How it works - Step 4" /></div>
+            </div>
+            <div class="mt-8 lg:mt-0 max-w-xl px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div class="mt-0">
+                  <h3 class="text-2xl text-white">4. Deploy to any environment</h3>
+                  <p class="mt-4 text-lg text-gray-300">Push it up to the docker image registry, and once you get it in there it's trivially easy to start a copy of your app in any environment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative bg-gray-900 pt-24 pb-32 overflow-hidden" id="why-build">
+        <div class="max-w-3xl mx-auto text-center"><h2 class="text-4xl font-extrabold text-white">You used to have to make hard choices</h2></div>
+        <div class="mt-8 sm:mt-12 lg:mt-16">
+          <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-md mx-auto space-y-4 lg:max-w-3xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+              <div class="flex flex-col rounded-lg overflow-hidden border-indigo-500 border border-opacity-60">
+                <div class="flex-1 flex flex-row justify-between items-start p-8 space-x-2">
+                  <div class="flex flex-row items-start">
+                    <img class="w-5 mr-5" src="src/images/radio-selected.svg" alt="Radio" />
+                    <ul class="space-y-6">
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">Developer Friendly</p>
+                      </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">Lightweight</p>
+                      </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">Quick to Market</p>
+                      </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">Simple</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <img class="w-5" src="src/images/logo-heroku.svg" alt="Heroku" />
+                </div>
+              </div>
+              <div class="flex flex-col rounded-lg overflow-hidden border-orange-500 border border-opacity-60">
+                <div class="flex-1 flex flex-row justify-between items-start p-8 space-x-2">
+                  <div class="flex flex-row items-start">
+                    <div class="w-5 h-5 mr-5 bg-white border border-gray-300 rounded-full"></div>
+                    <ul class="space-y-6">
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">Cost optimised</p>
+                      </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">High Security</p>
+                      </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">High Availability</p>
+                      </li>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0">
+                          <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <p class="ml-3 text-base text-white text-serif">Robust</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <img class="w-5" src="src/images/logo-aws.svg" alt="AWS" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <img class="mx-auto mb-8" src="src/images/best-of-both.svg" alt="Best of both worlds" />
+          <h3 class="text-center text-xl leading-8 font-extrabold tracking-tight text-white sm:text-3xl">Get the best of both worlds with Build.io</h3>
+          <p class="mt-6 max-w-3xl mx-auto text-center text-gray-300 text-xl">
+            Enjoy the high productivity environment that you get with an easy-to-use platform like Heroku but retain the control and robustness that you get from an Amazon or Google - the best of both worlds!
+          </p>
+          <div class="flex-col md:flex-row max-w-5xl mx-auto mt-10 justify-center flex space-y-1 md:space-x-3">
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>Cost optimised</h5>
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>High Security</h5>
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>High Availability</h5>
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>Simple</h5>
+            </span>
+          </div>
+          <div class="flex-col md:flex-row max-w-5xl mx-auto mt-3 justify-center flex space-y-1 md:space-x-3">
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>High developer productivity</h5>
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>No operational side</h5>
+            </span>
+            <span class="inline-flex items-center px-4 py-2 rounded bg-gray-800 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-1.5 h-6 w-6 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <h5>Highly robust platform</h5>
+            </span>
+          </div>
+          <a href="#" class="btn btn-primary mt-16">
+            <svg class="mr-3" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026.81577-.22249 1.65744-.33581 2.503-.337.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482 1.9913-.6679 3.7223-1.9447 4.9485-3.65 1.2261-1.7052 1.8854-3.7527 1.8845-5.853C20 4.484 15.522 0 10 0z"
+                fill="#060606"
+              />
+            </svg>
+            Connect to your Github repo
+          </a>
+        </div>
+      </div>
+      <div class="bg-gray-800" id="benefits">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-32 lg:px-8">
+          <div class="max-w-4xl mx-auto text-center"><h2 class="text-4xl font-extrabold text-white">With all the advantages of cloud native buildpacks</h2></div>
+          <dl class="mt-16 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-4 lg:gap-x-4">
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Advanced Caching</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Robust caching is used to improve performance.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Reproducibility</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Reproduces the same app image digest by re-running the build.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Modular / Pluggable</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Multiple buildpacks can be used to create an app image.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Rebasing</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Instant updates of base images without re-building.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Multi-language</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Supports more than one programming language family.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Bill-of-Materials</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Insights into the contents of the app image.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Minimal app image</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Image contains only what is necessary.</dd>
+            </div>
+            <div class="bg-gray-900 p-4 rounded-lg relative">
+              <dt>
+                <svg class="absolute h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <h5 class="ml-9 text-lg leading-6 text-white">Reusability</h5>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-300">Leverage prod-ready buildpacks from the community.</dd>
+            </div>
+          </dl>
+          <div class="flex justify-center mt-16">
+            <a href="#" class="btn btn-primary">
+              <svg class="mr-3" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026.81577-.22249 1.65744-.33581 2.503-.337.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482 1.9913-.6679 3.7223-1.9447 4.9485-3.65 1.2261-1.7052 1.8854-3.7527 1.8845-5.853C20 4.484 15.522 0 10 0z"
+                  fill="#060606"
+                />
+              </svg>
+              Connect to your Github repo
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:relative bg-gray-900 overflow-hidden">
+        f
+        <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-32 lg:text-left">
+          <div class="mx-6 pt-8 pb-20 lg:w-1/2 xl:pr-16">
+            <h2 class="text-4xl text-white">Why not just use Heroku?</h2>
+            <p class="mt-10 text-lg text-gray-300">
+              Heroku is a great managed option that removes many of the devops challenges of deployment. However, it's only great until you start growing. As soon as you do, you'll need something more flexible, scalable and affordable and
+              secure.<br />
+              <br />
+              While there’s a whole host of affordable, scalable and secure cloud providers, each come with their own unique set of devops challenges requiring you to configure tons of services to get your application deployed.<br />
+              <br />
+              Build.io acts as a simplification layer and creates runnable buildpacks making it trivial to deploy your image to your cloud provider of choice.
+            </p>
+          </div>
+        </div>
+        <div class="flex align-middle relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full"><img class="w-full" src="src/images/heroku.svg" alt="" /></div>
+      </div>
+      <div class="bg-gray-800" id="#faq">
+        <div class="max-w-6xl mx-auto py-16 px-4 sm:py-32 sm:px-6 lg:px-8">
+          <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Frequently asked questions</h2>
+            <dl class="mt-6 space-y-6 divide-y divide-gray-600">
+              <div x-data="{open1:false}" class="select-none">
+                <dt class="text-lg">
+                  <div @click="open1 = !open1" type="button" class="pt-6 text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+                    <span class="font-medium text-white">How is Build.io different to Heroku? </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg :class="{ 'block' : !open1 , '-rotate-180' : open1}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </div>
+                </dt>
+                <dd x-show="open1" class="mt-2 pr-12" id="faq-0">
+                  <p class="text-base text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                </dd>
+              </div>
+              <div x-data="{open2:false}" class="select-none">
+                <dt class="text-lg">
+                  <div @click="open2 = !open2" type="button" class="pt-6 text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+                    <span class="font-medium text-white">Who is this for? </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg :class="{ 'block' : !open2 , '-rotate-180' : open2}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </div>
+                </dt>
+                <dd x-show="open2" class="mt-2 pr-12" id="faq-0">
+                  <p class="text-base text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                </dd>
+              </div>
+              <div x-data="{open3:false}" class="select-none">
+                <dt class="text-lg">
+                  <div @click="open3 = !open3" type="button" class="pt-6 text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+                    <span class="font-medium text-white">What is the output? </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg :class="{ 'block' : !open3 , '-rotate-180' : open3}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </div>
+                </dt>
+                <dd x-show="open3" class="mt-2 pr-12" id="faq-0">
+                  <p class="text-base text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                </dd>
+              </div>
+              <div x-data="{open4:false}" class="select-none">
+                <dt class="text-lg">
+                  <div @click="open4 = !open4" type="button" class="pt-6 text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+                    <span class="font-medium text-white">What does it cost? </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg :class="{ 'block' : !open4 , '-rotate-180' : open4}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </div>
+                </dt>
+                <dd x-show="open4" class="mt-2 pr-12" id="faq-0">
+                  <p class="text-base text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                </dd>
+              </div>
+              <div x-data="{open5:false}" class="select-none">
+                <dt class="text-lg">
+                  <div @click="open5 = !open5" type="button" class="pt-6 text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+                    <span class="font-medium text-white">Is it a scalable solution? </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg :class="{ 'block' : !open5 , '-rotate-180' : open5}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </div>
+                </dt>
+                <dd x-show="open5" class="mt-2 pr-12" id="faq-0">
+                  <p class="text-base text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                </dd>
+              </div>
+              <div x-data="{open6:false}" class="select-none">
+                <dt class="text-lg">
+                  <div @click="open6 = !open6" type="button" class="pt-6 text-left w-full cursor-pointer flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false">
+                    <span class="font-medium text-white">What is a buildpack, image, container? </span>
+                    <span class="ml-6 h-7 flex items-center">
+                      <svg :class="{ 'block' : !open6 , '-rotate-180' : open6}" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </div>
+                </dt>
+                <dd x-show="open6" class="mt-2 pr-12" id="faq-0">
+                  <p class="text-base text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="bg-gray-900">
+      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <h2 class="text-3xl tracking-tight text-white md:text-4xl w-1/2"><span class="block">Deploy your application to any environment in minutes</span></h2>
+        <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div class="inline-flex rounded-md shadow">
+            <a href="#" class="btn btn-primary">
+              <svg class="mr-3" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026.81577-.22249 1.65744-.33581 2.503-.337.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482 1.9913-.6679 3.7223-1.9447 4.9485-3.65 1.2261-1.7052 1.8854-3.7527 1.8845-5.853C20 4.484 15.522 0 10 0z"
+                  fill="#060606"
+                />
+              </svg>
+              Connect to your Github repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-gray-900 z-10 relative" aria-labelledby="footerHeading">
+      <h2 id="footerHeading" class="sr-only">Footer</h2>
+      <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:pb-16 lg:px-8">
+        <div class="border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
+          <div class="flex items-center">
+            <img class="h-6 mr-2" src="src/images/build-logo.svg" alt="" />
+            <p class="mt-8 text-sm text-gray-300 md:mt-0 md:order-1">Deploy your app in minutes</p>
+          </div>
+          <p class="mt-8 text-sm text-gray-300 md:mt-0 md:order-1">© 2021 Build.io, Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
