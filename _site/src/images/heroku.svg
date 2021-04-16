@@ -1,4 +1,4 @@
-<svg width="636" height="433" viewBox="0 0 636 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="516" height="403" viewBox="0 0 516 403" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <path opacity="0.5" d="M187.609 49.1208L235.432 25.2095L283.255 49.1208L235.432 73.0321L187.609 49.1208Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M426.722 25.2839L474.545 1.37256L522.367 25.2839L474.545 49.1952L426.722 25.2839Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
@@ -7,7 +7,6 @@
 <path opacity="0.5" d="M139.787 73.0319L187.609 49.1206L235.432 73.0319L187.609 96.9432L139.787 73.0319Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M378.899 96.943L426.722 73.0317L474.545 96.943L426.722 120.854L378.899 96.943Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M474.545 96.943L522.368 73.0317L570.19 96.943L522.368 120.854L474.545 96.943Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path d="M570.19 96.943L618.013 73.0317L665.835 96.943L618.013 120.854L570.19 96.943Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M187.609 96.943L235.432 73.0317L283.255 96.943L235.432 120.854L187.609 96.943Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M235.432 120.855L283.254 96.9434L331.077 120.855L283.254 144.766L235.432 120.855Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M331.077 120.855L378.9 96.9434L426.722 120.855L378.9 144.766L331.077 120.855Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
@@ -15,12 +14,10 @@
 <path d="M522.367 120.855L570.19 96.9434L618.012 120.855L570.19 144.766L522.367 120.855Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M283.254 144.766L331.077 120.854L378.9 144.766L331.077 168.677L283.254 144.766Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M474.545 144.766L522.368 120.854L570.19 144.766L522.368 168.677L474.545 144.766Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path d="M570.19 144.766L618.013 120.854L665.835 144.766L618.013 168.677L570.19 144.766Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M522.367 168.677L570.19 144.766L618.012 168.677L570.19 192.588L522.367 168.677Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M138.787 165.677L186.609 141.766L234.432 165.677L186.609 189.588L138.787 165.677Z" stroke="#6366F1" stroke-width="2"/>
 <path d="M378.899 192.589L426.722 168.677L474.545 192.589L426.722 216.5L378.899 192.589Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M474.545 192.589L522.368 168.677L570.19 192.589L522.368 216.5L474.545 192.589Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path d="M570.19 192.589L618.013 168.677L665.835 192.589L618.013 216.5L570.19 192.589Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M235.432 216.5L283.254 192.588L331.077 216.5L283.254 240.411L235.432 216.5Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M331.077 216.5L378.9 192.588L426.722 216.5L378.9 240.411L331.077 216.5Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M426.722 216.5L474.545 192.588L522.367 216.5L474.545 240.411L426.722 216.5Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
@@ -28,7 +25,6 @@
 <path opacity="0.5" d="M139.787 216.5L187.609 192.588L235.432 216.5L187.609 240.411L139.787 216.5Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M283.254 240.411L331.077 216.5L378.9 240.411L331.077 264.322L283.254 240.411Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M378.899 240.411L426.722 216.5L474.545 240.411L426.722 264.322L378.899 240.411Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path d="M570.19 240.411L618.013 216.5L665.835 240.411L618.013 264.322L570.19 240.411Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M187.609 240.411L235.432 216.5L283.255 240.411L235.432 264.322L187.609 240.411Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M235.432 264.322L283.254 240.411L331.077 264.322L283.254 288.234L235.432 264.322Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M331.077 264.322L378.9 240.411L426.722 264.322L378.9 288.234L331.077 264.322Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
@@ -37,7 +33,6 @@
 <path opacity="0.6" d="M283.254 288.234L331.077 264.322L378.9 288.234L331.077 312.145L283.254 288.234Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M378.899 288.234L426.722 264.322L474.545 288.234L426.722 312.145L378.899 288.234Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M474.545 288.234L522.368 264.322L570.19 288.234L522.368 312.145L474.545 288.234Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path d="M570.19 288.234L618.013 264.322L665.835 288.234L618.013 312.145L570.19 288.234Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M187.609 288.234L235.432 264.322L283.255 288.234L235.432 312.145L187.609 288.234Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M426.722 312.145L474.545 288.233L522.367 312.145L474.545 336.056L426.722 312.145Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M522.367 312.145L570.19 288.233L618.012 312.145L570.19 336.056L522.367 312.145Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
@@ -45,12 +40,10 @@
 <path opacity="0.5" d="M235.581 24.9113L283.403 1L331.226 24.9113L283.403 48.8226L235.581 24.9113Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.8" d="M474.545 336.056L522.368 312.145L570.19 336.056L522.368 359.968L474.545 336.056Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.5" d="M331.226 24.9113L379.049 1L426.871 24.9113L379.049 48.8226L331.226 24.9113Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path opacity="0.8" d="M570.19 336.056L618.013 312.145L665.835 336.056L618.013 359.968L570.19 336.056Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M331.077 359.967L378.9 336.056L426.722 359.967L378.9 383.879L331.077 359.967Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.6" d="M522.367 359.967L570.19 336.056L618.012 359.967L570.19 383.879L522.367 359.967Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M379.048 48.8224L426.871 24.9111L474.694 48.8224L426.871 72.7337L379.048 48.8224Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.8" d="M426.573 360.042L474.396 336.131L522.218 360.042L474.396 383.953L426.573 360.042Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
-<path opacity="0.6" d="M570.19 383.879L618.013 359.967L665.835 383.879L618.013 407.79L570.19 383.879Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path d="M426.871 72.7341L474.694 48.8228L522.516 72.7341L474.694 96.6454L426.871 72.7341Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.8" d="M331.077 407.79L378.9 383.879L426.722 407.79L378.9 431.702L331.077 407.79Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
 <path opacity="0.7" d="M377.856 384.028L425.679 360.116L473.502 384.028L425.679 407.939L377.856 384.028Z" fill="white" fill-opacity="0.18" stroke="black" stroke-width="1.19184"/>
